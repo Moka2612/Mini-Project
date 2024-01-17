@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.table {
+  margin: 150px auto;
+  width: 1200px;
+}
+
+th {
+  text-align: center;
+}
+
+.table-img {
+  height: 120px;
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+.table-description span {
+  display: block;
+}
+
+.input-group {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.table-text-price {
+  text-align: center;
+}
+
+#total-price,
+#total-discount,
+#total-tax {
+  font-weight: 600;
+}
