@@ -1,0 +1,10 @@
+[
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.insertSnippet",
+    "args": {
+      "snippet": "console.log($1);$0"
+    },
+    "when": "editorTextFocus"
+  }
+]
